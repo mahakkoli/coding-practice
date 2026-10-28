@@ -10,7 +10,6 @@ def revenue_by_customer(leases):
 
     return dict(totals)
 
-
 def count_by_status(leases):
     total_count = defaultdict(int)
 
